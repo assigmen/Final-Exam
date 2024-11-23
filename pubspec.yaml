@@ -1,0 +1,40 @@
+name: midterm
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^0.8.7+3
+#  firebase_core: ^2.16.0        # Add this for Firebase core functionality
+#  firebase_auth: ^4.7.0         # Add this for Firebase authentication
+#  cloud_firestore: ^4.9.0       # Add this for Firestore database functionality
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Include the assets for images and the en.json file
+  assets:
+    - assets/images/
+    - assets/images/icons/khmer.png
+    - assets/images/icons/english.png
+    - assets/images/icons/removebg.png
+    - assets/lang/en.json  # Add this line for your language JSON file
+    - assets/lang/kh.json
+    - assets/images/icons/image1.png
+    - assets/images/icons/bbu.png
+    - assets/images/icons/beer.png

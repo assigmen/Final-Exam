@@ -1,0 +1,137 @@
+freestopapp/
+├── .idea/
+├── gradle/
+│   ├── wrapper/
+│   │   ├── gradle-wrapper.jar
+│   │   └── gradle-wrapper.properties
+├── app/
+│   ├── src/
+│   │   ├── androidTest/
+│   │   │   └── java/
+│   │   │       └── com/
+│   │   │           └── dinsaren/
+│   │   │               └── freepostapp/
+│   │   │                   └── ExampleInstrumentedTest.java
+│   │   ├── main/
+│   │   │   ├── AndroidManifest.xml
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── dinsaren/
+│   │   │   │           └── freepostapp/
+│   │   │   │               ├── adapters/
+│   │   │   │               │   ├── AdminCategoryAdapter.java
+│   │   │   │               │   ├── AdminPostAdapter.java
+│   │   │   │               │   ├── AdminUserAdapter.java
+│   │   │   │               │   ├── CategoryAdapter.java
+│   │   │   │               │   └── PostAdapter.java
+│   │   │   │               ├── apis/
+│   │   │   │               │   ├── ApiClient.java
+│   │   │   │               │   └── AppApis.java
+│   │   │   │               ├── base/
+│   │   │   │               │   ├── AuthActivity.java
+│   │   │   │               │   ├── BaseActivity.java
+│   │   │   │               │   ├── BaseFragment.java
+│   │   │   │               │   ├── MainApplication.java
+│   │   │   │               │   └── MyFirebaseMessagingService.java
+│   │   │   │               ├── constants/
+│   │   │   │               │   ├── Apis.java
+│   │   │   │               │   └── Constants.java
+│   │   │   │               ├── data/
+│   │   │   │               │   └── local/
+│   │   │   │               │       └── TokenManager.java
+│   │   │   │               ├── exceptions/
+│   │   │   │               │   └── AppException.java
+│   │   │   │               ├── models/
+│   │   │   │               │   ├── Category.java
+│   │   │   │               │   ├── Post.java
+│   │   │   │               │   ├── request/
+│   │   │   │               │   │   ├── BaseRequest.java
+│   │   │   │               │   │   ├── LoginRequest.java
+│   │   │   │               │   │   ├── RefreshTokenRequest.java
+│   │   │   │               │   │   ├── RegisterRequest.java
+│   │   │   │               │   │   └── UploadImageResponse.java
+│   │   │   │               │   ├── response/
+│   │   │   │               │   │   ├── BaseResponse.java
+│   │   │   │               │   │   ├── Role.java
+│   │   │   │               │   │   ├── Token.java
+│   │   │   │               │   │   └── User.java
+│   │   │   │               ├── presenters/
+│   │   │   │               │   ├── AuthPresenter.java
+│   │   │   │               │   ├── CreatePostPresenter.java
+│   │   │   │               │   ├── HomePresenter.java
+│   │   │   │               │   ├── PostDetailPresenter.java
+│   │   │   │               │   ├── PostPresenter.java
+│   │   │   │               ├── services/
+│   │   │   │               │   ├── AppService.java
+│   │   │   │               │   └── CustomAuthenticator.java
+│   │   │   │               ├── uis/
+│   │   │   │               │   ├── admin/
+│   │   │   │               │   │   └── AdminDashboardActivity.java
+│   │   │   │               │   │   ├── category/
+│   │   │   │               │   │   │   ├── CategoryActivity.java
+│   │   │   │               │   │   │   └── CreateCategoryActivity.java
+│   │   │   │               │   │   ├── post/
+│   │   │   │               │   │   │   ├── AdminCreatePostActivity.java
+│   │   │   │               │   │   │   └── AdminPostActivity.java
+│   │   │   │               │   │   ├── presenters/
+│   │   │   │               │   │   │   ├── CategoryPresenter.java
+│   │   │   │               │   │   │   ├── CreateCategoryPresenter.java
+│   │   │   │               │   │   │   ├── CreateUserPresenter.java
+│   │   │   │               │   │   │   ├── EditProfilePresenter.java
+│   │   │   │               │   │   │   ├── PostPresenter.java
+│   │   │   │               │   │   │   └── UserPresenter.java
+│   │   │   │               │   │   ├── user/
+│   │   │   │               │   │   │   ├── CreateUserActivity.java
+│   │   │   │               │   │   │   ├── UserActivity.java
+│   │   │   │               │   │   ├── views/
+│   │   │   │               │   │   │   ├── CategoryView.java
+│   │   │   │               │   │   │   ├── CreateCategoryView.java
+│   │   │   │               │   │   │   ├── CreateUserView.java
+│   │   │   │               │   │   │   ├── PostView.java
+│   │   │   │               │   │   │   └── UserView.java
+│   │   │   │               │   ├── auth/
+│   │   │   │               │   │   ├── LoginActivity.java
+│   │   │   │               │   │   └── RegisterActivity.java
+│   │   │   │               │   ├── ChangeLanguageActivity.java
+│   │   │   │               │   ├── MainActivity.java
+│   │   │   │               │   ├── MainBottomNavigationActivity.java
+│   │   │   │               │   ├── ui/
+│   │   │   │               │   │   ├── account/
+│   │   │   │               │   │   │   ├── AccountFragment.java
+│   │   │   │               │   │   │   └── EditProfileActivity.java
+│   │   │   │               │   │   ├── home/
+│   │   │   │               │   │   │   └── HomeFragment.java
+│   │   │   │               │   │   ├── post/
+│   │   │   │               │   │   │   ├── CreatePostActivity.java
+│   │   │   │               │   │   │   ├── PostDetailActivity.java
+│   │   │   │               │   │   │   └── PostFragment.java
+│   │   │   │               ├── utils/
+│   │   │   │               │   ├── CheckRuntimePermission.java
+│   │   │   │               │   ├── LocaleHelper.java
+│   │   │   │               │   ├── LocaleManager.java
+│   │   │   │               │   ├── MultipartHelper.java
+│   │   │   │               │   └── Utility.java
+│   │   │   │               ├── views/
+│   │   │   │               │   ├── BaseView.java
+│   │   │   │               │   ├── CreatePostView.java
+│   │   │   │               │   ├── EditProfileView.java
+│   │   │   │               │   ├── HomeView.java
+│   │   │   │               │   ├── LoginDetailView.java
+│   │   │   │               │   ├── PostDetailView.java
+│   │   │   │               │   └── PostView.java
+│   │   └── res/
+│   │   └── test/
+│   │       └── java/
+│   │           └── com/
+│   │               └── dinsaren/
+│   │                   └── freepostapp/
+│   │                       └── ExampleUnitTest.java
+├── build.gradle (Project level)
+├── build.gradle (App level)
+├── google-services.json
+├── proguard-rules.pro
+├── gradlew
+├── gradlew.bat
+├── local.properties
+├── README.md
+└── settings.gradle

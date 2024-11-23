@@ -1,0 +1,51 @@
+firestoreapp/
+├── .dart_tool/
+├── .idea/
+├── android/
+├── ios/
+├── lib/
+├── exceptions/
+│   ├── AppException.dart
+├── models/
+│   ├── Category.dart
+│   ├── Post.dart
+│   ├── User.dart
+├── screens/
+│   ├── CategoryScreen.dart
+│   ├── LoginScreen.dart
+│   ├── PostDetailScreen.dart
+├── services/
+│   ├── ApiService.dart
+│   ├── auth_service.dart
+│   ├── constants.dart
+│   ├── FirebaseService.dart
+│   ├── TokenManager.dart
+├── state/
+│   ├── AuthState.dart
+├── state_management/
+│   ├── AuthProvider.dart
+│   ├── CategoryProvider.dart
+├── utils/
+│   ├── auth.dart
+│   ├── NetworkUtils.dart
+│   ├── ValidationUtils.dart
+├── widgets/
+│   ├── common/
+│   │   ├── AppBarWidget.dart
+│   │   ├── CustomButton.dart
+│   │   ├── LoadingIndicator.dart
+│   ├── base_widget.dart
+│   ├── CategoryList.dart
+│   ├── PostList.dart
+├── main.dart
+├── linux/
+├── macos/
+├── test/
+├── web/
+├── windows/
+├── .gitignore
+├── analysis_options.yaml
+├── firestoreapp.iml
+├── pubspec.lock
+├── pubspec.yaml
+└── README.md

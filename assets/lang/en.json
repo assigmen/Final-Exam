@@ -1,0 +1,14 @@
+{
+  "login": "Login",
+  "welcome": "Welcome back to login",
+  "username": "Username/Phone/Email",
+  "password": "Password",
+  "create_account": "Don't have an account? Sign up",
+  "logout": "Logout",
+  "my_posts": "My Posts",
+  "test_post_news": "Test Post News",
+  "home": "Home",
+  "news": "News",
+  "account": "Account",
+  "create": "Create"
+}
